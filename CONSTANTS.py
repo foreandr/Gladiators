@@ -1,0 +1,15 @@
+'''CONSTANTS '''
+
+header_size = 10
+len_header_size = len(str(header_size))
+HOME_SERVER_IPv6 = '2607:fea8:2d5f:4f00:b542:a699:de90:ecb4'  # not using here
+HOME_SERVER_IPv6_2 = "2607:fea8:2d5f:4f00::601e"
+HOME_SERVER_LOCAL_HOST_IPV4 = '127.0.0.1' # CONNECTION WORKS
+HOME_SERVER_IPV4 = "10.0.0.205" # CONNECTION
+HOME_REAL_IPV4 = "99.242.23.51"
+HOME_SERVER_IPv4_META = '0.0.0.0'
+PORT = 9011
+QUEUE_SIZE = 5  # for high traffic
+CAESAR_KEY = 10
+BUFFER_SIZE_A = 8
+BUFFER_SIZE_B = 4096

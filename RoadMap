@@ -1,0 +1,5 @@
+1. Client Makes a bet related to a sport
+    - Server recieves and broadcasts bet to clients
+    - Another client can take the bet
+
+    - bet gets locked, if one client leaves, the other automatically wins
